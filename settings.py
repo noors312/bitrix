@@ -145,3 +145,4 @@ LOGGING = {
         },
     }
 }
+BITRIX_WEBHOOK_URL = ''
