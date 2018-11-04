@@ -1,8 +1,9 @@
 DJANGO BITRIX
 ---
-Python lib for BITRIX API
+Python lib for BITRIX API \
 
-###INSTALLING
+INSTALLING
+---
 `$ pip instlal bitrix`
 #### CONFIGURE YOUR APP AND BITRIX
 1) Create webhook in your Bitrix \
