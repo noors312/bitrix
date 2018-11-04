@@ -1,6 +1,6 @@
 DJANGO BITRIX
 ---
-Python lib for BITRIX API \
+Python lib for BITRIX API
 
 INSTALLING
 ---
