@@ -1,0 +1,15 @@
+language: python
+python:
+  - "3.4"
+  - "3.5"
+  - "3.6"
+install:
+  - pip install -r requirements/test.txt
+  - pip install -q requests==$REQUEST_VERSION
+script:
+  - coverage run --source=bitrix manage.py test
+  - coverage report --show-missing
+  - flake8 bitrix --max-line-length=120 --max-complexity=4
+
+env:
+  - REQUEST_VERSION=2.20.0
