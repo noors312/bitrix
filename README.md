@@ -36,7 +36,7 @@ class ClassBasedView(Bitrix24,View):
 ```python
 from django.db.models.signals import post_save
 from django.dispatch import receiver
-from bitrix.mixins import Bitrix24
+from bitrix.main import Bitrix24
 
 @receiver(post_save, sender=YourModel, dispatch_uid="sell_levels")
 def set_level(sender, instance, created, **kwargs):
