@@ -2,6 +2,8 @@ DJANGO BITRIX
 ---
 Python lib for BITRIX API
 
+###INSTALLING
+`$ pip instlal bitrix`
 #### CONFIGURE YOUR APP AND BITRIX
 1) Create webhook in your Bitrix \
 ![alt_tag](https://helpdesk.bitrix24.ru/upload/medialibrary/966/%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0_%D0%B2%D0%B5%D0%B1%D1%85%D1%83%D0%BA%D0%B8.png "WEBHOOK EXAMPLE")
