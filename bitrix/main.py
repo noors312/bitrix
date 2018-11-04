@@ -1,6 +1,6 @@
 import requests
 
-import settings
+from django.conf import settings
 
 
 class Bitrix24:
