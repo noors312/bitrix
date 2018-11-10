@@ -13,6 +13,6 @@ from sample.views import *
 urlpatterns = [
     # url(r'^jet/', include('jet.urls', 'jet')),
     url(r'^admin/', admin.site.urls),
-    url(r'^$', SampleDetailView.as_view()),
+    url(r'^$', SampleTemplateView.as_view()),
     # url(r'^$', SampleFormView.as_view()),
 ]

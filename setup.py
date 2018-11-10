@@ -20,7 +20,7 @@ CLASSIFIERS = [
 
 setup(
     name="bitrix",
-    version='0.0.2',
+    version='0.0.3',
     author="Noors Ergesh",
     author_email="jackmovies01@gmail.com",
     description="Bitrix24 python library",

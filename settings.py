@@ -145,4 +145,5 @@ LOGGING = {
         },
     }
 }
-BITRIX_WEBHOOK_URL = ''
+BITRIX_WEBHOOK_URL = 'https://emio.bitrix24.ru/rest/89/t9u8dh4pqtem80v3/'
+BITRIX_LOG_FILE = 'logs'
